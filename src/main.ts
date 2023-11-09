@@ -10,7 +10,7 @@ async function bootstrap() {
       whitelist: true,
     }),
   );
-  app.enableCors({origin: 'https://bookstore-api-server.chinexman.repl.co'})
+  app.enableCors({origin: 'https://bookstore-api-client-ingyhdpsu-chinexman.vercel.app/'})
   await app.listen(5000);
 }
 bootstrap();
